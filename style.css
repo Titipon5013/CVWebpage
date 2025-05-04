@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+    font-family: cursive;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease-in-out;
+}
+
+h1, h2 {
+    color: #2a148a;
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    transition: background-color 0.3s;
+}
+
+section {
+    scroll-margin-top: 70px; 
+}
+
+
+/*Education Logo Styling */
+.school-logo, .university-logo {
+    width: 225px;
+    height: 225px;
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto; 
+}
+
+/* Skill Section */
+.custom-yellow {
+    background-color: #f4c542 !important; 
+    color: black; 
+}
+
+.custom-orange {
+    background-color: #f97316 !important; 
+    color: white;
+}
+
+.custom-purple {
+    background-color: #8e44ad !important; 
+    color: white;
+}
+
+.custom-blue {
+    background-color: #7ab6f7 !important; 
+    color: white;
+}
+
+.progress-bar {
+    width: 0; 
+    transition: width 1.5s ease-in-out;
+}
+
+/* Experience Section */
+#experience {
+    margin-top: 50px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    padding: 20px;
+    margin: 20px 0;
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+    position: relative;
+}
+
+.timeline-item h3 {
+    color: #2a148a;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.timeline-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline-item ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+}
+
+/* Responsive Design for Experience Section */
+@media (max-width: 768px) {
+    .timeline-item h3 {
+        font-size: 1.2rem; 
+    }
+
+    .timeline-item p,
+    .timeline-item ul li {
+        font-size: 0.9rem; 
+    }
+}
+
+/* Hobby Section */  
+#hobby img {
+    width: 100%;  
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+#hobby .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#hobby h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#hobby p {
+    font-size: 0.9rem;
+    color: #555;
+}
+    
+/* Portfolio Section */  
+#portfolio {
+    margin-top: 50px;
+}
+
+.project1, .project2, .project3, .project4 {
+    width: 100%;
+    height: 800px; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+.project1-description {
+    color: #f4c542;
+}
+
+.project2-description {
+    color: #007bff;
+}
+
+.project3-description {
+    color: #0af8f8;
+}
+
+.project4-description {
+    color: #f5a40f;
+}
+
+.project5-description {
+    color: #f5a40f;
+}
+
+.project6-description {
+    color: #f5a40f;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .project1, .project2, .project3, .project4 {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .project1, .project2, .project3, .project4 {
+        max-width: 90%; 
+    }
+    .carousel-caption p {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .project1, .project2, .project3, .project4 {
+        max-width: 100%; 
+    }
+    .carousel-caption p {
+        font-size: 0.8rem; 
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        text-align: center;
+    }
+    
+    .school-logo, .university-logo {
+        width: 150px; 
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 1.5rem; 
+    }
+
+    .progress-bar {
+        font-size: 1rem; 
+    }
+}
