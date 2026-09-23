@@ -200,6 +200,10 @@ h1, h2, h3, h4, h5, h6,
     color: var(--amber) !important;
 }
 
+.nav-link.is-current {
+    color: var(--amber) !important;
+}
+
 section {
     position: relative;
 }
@@ -436,4 +440,36 @@ section {
         flex-direction: column;
         gap: 0.65rem;
     }
+}
+
+.project-card.is-focused {
+    border-color: rgba(245, 185, 66, 0.45) !important;
+}
+
+#reading-progress {
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    pointer-events: none;
+    background: linear-gradient(90deg, var(--amber), var(--violet));
+    box-shadow: 0 0 14px rgba(245, 185, 66, 0.75);
+    transition: width 0.12s ease-out;
+}
+
+.interaction-notice {
+    position: fixed;
+    z-index: 1060;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    max-width: calc(100vw - 2.5rem);
+    padding: 0.8rem 1rem;
+    color: var(--ink);
+    background: var(--amber);
+    border-radius: 10px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+    font-size: 0.85rem;
+    font-weight: 700;
 }
