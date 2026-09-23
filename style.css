@@ -337,6 +337,27 @@ section {
     color: var(--amber) !important;
 }
 
+.project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.85rem 1.25rem;
+}
+
+.project-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--amber) !important;
+    font-size: 0.85rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.project-action:hover {
+    color: #ffd477 !important;
+    transform: translateX(3px);
+}
+
 #contact {
     border-top: 1px solid var(--line);
 }
@@ -408,5 +429,11 @@ section {
     #contact a {
         width: 100%;
         justify-content: center;
+    }
+
+    .project-actions {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.65rem;
     }
 }
