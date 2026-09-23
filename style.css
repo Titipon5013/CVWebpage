@@ -336,7 +336,6 @@ section {
     border-color: var(--amber);
 }
 
-.stretched-link,
 #contact a {
     color: var(--amber) !important;
 }
