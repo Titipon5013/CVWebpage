@@ -17,15 +17,20 @@ const sections = navigationLinks
 // Smooth scrolling also keeps the mobile navigation from staying open.
 navigationLinks.forEach(anchor => {
     anchor.addEventListener('click', event => {
-        event.preventDefault();
         const target = anchor.getAttribute('href');
-        const targetElement = target?.startsWith('#')
-            ? document.querySelector(target)
-            : null;
-
-        if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (!target?.startsWith('#')) {
+            return;
         }
+
+        const targetElement = document.querySelector(target);
+
+        if (!targetElement) {
+            return;
+        }
+
+        event.preventDefault();
+
+        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         const openMenu = document.querySelector('.navbar-collapse.show');
         if (openMenu && window.bootstrap) {
