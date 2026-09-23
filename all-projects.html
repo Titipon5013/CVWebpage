@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All Projects - Titipon Tawong</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-dark" href="index.html">Titipon Tawong</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html#intro">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#projects">&larr; Back to Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- All Projects Header -->
+<section class="container my-5 pt-4">
+    <div class="text-center mb-5" data-aos="fade-up">
+        <h1 class="fw-bold">All Projects Archive</h1>
+        <p class="lead text-muted">A complete list of my personal, academic, and independent projects.</p>
+    </div>
+</section>
+
+<!-- All Projects Grid -->
+<section class="bg-slate py-5">
+    <div class="container">
+        <div class="row g-4">
+            
+            <!-- 1. Food Assemble -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">Food Assemble</h5>
+                            <span class="badge badge-date rounded-pill">2026</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">Recipe Search Engine</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I engineered a full-stack Next.js and Flask recipe search platform powered by Elasticsearch. I integrated collaborative filtering (SVD) and AI-driven text classification to deliver personalized recommendations.
+                        </p>
+                        <a href="https://github.com/Titipon5013/IR_Project" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. PlayerXG -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">PlayerxG</h5>
+                            <span class="badge badge-date rounded-pill">2026</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">NLP Scouting Engine</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I architected an NLP AI scouting engine via Streamlit using TF-IDF and Logistic Regression. I trained it on match commentary datasets to predict Expected Goals (xG) and provide tactical visualizations.
+                        </p>
+                        <a href="https://playerxg.streamlit.app/" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Fraud-Scout -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">Fraud-Scout</h5>
+                            <span class="badge badge-date rounded-pill">2026</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">AI Fraud Detection</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I developed an AI-powered retail fraud detection dashboard. I engineered an NLP smart matching and anomaly detection pipeline using Scikit-learn to identify suspicious sales patterns like price manipulation.
+                        </p>
+                        <a href="https://fraud-scout.streamlit.app/#fraud-scout" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Ten-K Shop -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">Ten-K Shop</h5>
+                            <span class="badge badge-date rounded-pill">2026</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">E-Commerce Platform</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I engineered and deployed a production-ready e-commerce platform using React, Vite, and Supabase. I implemented complex Zustand-driven dynamic pricing, cart persistence, and a secure admin console.
+                        </p>
+                        <a href="https://ten-k-shop.vercel.app/" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Mobile Air & Water Pollution Monitoring Station -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">IoT Pollution Monitor</h5>
+                            <span class="badge badge-date rounded-pill">2025</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">Embedded Systems & IoT</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I developed a portable IoT pollution monitoring station integrating Arduino Uno and NodeMCU V3 to acquire sensor data (MQ-135, DHT22, TDS) and transmit real-time alerts via Blynk IoT. Successfully tested at CASA CONDO @CMU.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1KiVAVjuW3MdKwOFLySJbQ84uTo-HVhnk/view" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project Document &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. G-Event -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">G-Event</h5>
+                            <span class="badge badge-date rounded-pill">2026</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">Full-Stack Event Management</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I developed a full-stack event management application using Vue.js for the frontend and Bun for the backend. I integrated robust data handling and responsive UI components for seamless event tracking.
+                        </p>
+                        <a href="https://g-event-six.vercel.app/" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. What-about-My-Lyrics -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">What-about-My-Lyrics</h5>
+                            <span class="badge badge-date rounded-pill">2025</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">NLP Sentiment Analyzer</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I created a Streamlit-based NLP application that analyzes the sentiment of song lyrics. I utilized PyThaiNLP and Pandas to process text data and provide insights into the emotional tone of popular Spotify tracks.
+                        </p>
+                        <a href="https://what-about-my-lyrics.streamlit.app/" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 8. What-a-Skill -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">What-a-Skill</h5>
+                            <span class="badge badge-date rounded-pill">2025</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">Career Risk Analyzer</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I developed an independent AI-powered career risk analyzer. I utilized Streamlit, NLP, and machine learning models to assess professional skill gaps and provide data-driven career trajectory insights.
+                        </p>
+                        <a href="https://what-a-skill.streamlit.app/" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9. CJ Streetwear -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">CJ Streetwear</h5>
+                            <span class="badge badge-date rounded-pill">2024</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">Webstore & Back-Office</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I developed a complete e-commerce platform and back-office management system using EJS and SQL. I implemented secure routing, CRUD operations, and environment variables for a dynamic shopping experience.
+                        </p>
+                        <a href="https://cj-streetwear-webstore.vercel.app/?fbclid=IwcGRvZgNleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA80Mzc2MjYzMTY5NzM3ODgAAR6Ee1GiOAYH_IShp6Uy2DLR0KnSWX7tvkaSweAgUWNvwEse42FYLhTacamUCg_aem_j2etxintzf6-EWGMx-gbQA" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10. AsteroidX -->
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+                <div class="card h-100 border-0 shadow-sm project-card position-relative">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="fw-bold mb-0">AsteroidX</h5>
+                            <span class="badge badge-date rounded-pill">2024</span>
+                        </div>
+                        <h6 class="mb-3" style="color: #64748b;">Java OOP Application</h6>
+                        <p class="card-text" style="color: #475569; font-size: 0.95rem;">
+                            I created an interactive Asteroid game utilizing Object-Oriented Programming principles in Java. I designed the UI using JavaFX (FXML) and managed project dependencies with Maven.
+                        </p>
+                        <a href="https://github.com/ZerotoHeroDaimaiKub/AsteroidX" target="_blank" class="stretched-link text-decoration-none fw-bold mt-auto pt-3" style="color: #2563eb;">View Repository &rarr;</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="custom-footer text-center py-4 mt-auto">
+    <p class="mb-0">&copy; 2026 Titipon Tawong. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+</body>
+</html>
